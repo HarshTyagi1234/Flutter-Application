@@ -67,6 +67,7 @@ class _MyAppState extends State<MyApp> {
                         prefixIcon: Icon(Icons.key),
                         border: OutlineInputBorder(),
                       ),
+
                       onChanged: (String value) {},
                       validator: (value) {
                         return value!.isEmpty ? 'please enter password' : null;
